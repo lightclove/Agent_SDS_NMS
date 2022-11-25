@@ -5,12 +5,3 @@ Middleware Agent of the Network Monitoring System of the Sofware Defined Switch
 в части сбора статистики мониторинга об интерфейсах для определения подключенных по данным интерфейсам устройств 
 и определения их качественных и количественных параметров функционирования.
 
-Интефейсы и их параметры:
-- ethernet: gigabit, gpio-linked, log'и ведение логов в БД с выставлением уровня ротации логов , uplink, downlink, метка времени, rx/tx, qos-параметры.
-- usb (2xusb2, 2xusb3), + x gpio-linked
-- uart, + x gpio-linked - тут я пока не силен
-- spi , gpio-linked - тут я пока не силен
-- usb-c / power supply параметры: уровень напряжения, тока, их отклонение от нормы 
-- данные о процессоре команда cat /proc/cpuinfo
-- данные об оперативной памяти, команда cat /proc/meminfo 
-- hdmi ports, что и сколько подключено, идет ли передача потока ?
